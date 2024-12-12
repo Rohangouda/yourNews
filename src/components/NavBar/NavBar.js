@@ -10,7 +10,10 @@ import "../NavBar/NavBar.css";
 
 function NavBar() {
   const navigate = useNavigate();
-
+  const buttonStyle = {
+    width: '100%', // Default width for mobile
+    maxWidth: '183px', // Maximum width
+  };
   const navRef = useRef(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -69,7 +72,7 @@ function NavBar() {
               </LinkContainer>
             ))}
           </Nav>
-          <a href="https://www.buymeacoffee.com/rohangouda"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=rohangouda&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+          <a href="https://www.buymeacoffee.com/rohangouda"><img style={buttonStyle} src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=rohangouda&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
           <Form className="search-form" onSubmit={handleSubmit}>
             <FormControl
               type="text"
