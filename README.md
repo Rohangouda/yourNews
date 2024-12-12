@@ -2,7 +2,7 @@
 
 (https://github.com/Rohangouda/yourNews/blob/main/src/components/Images/Demo.png)
 
-This News App is powered by the GNews public API and provides users with the latest news articles from around the world. The app offers a user-friendly interface where news articles are organized by categories, allowing users to easily browse and read articles of their interest. 
+This News App is powered by the News public API and provides users with the latest news articles from around the world. The app offers a user-friendly interface where news articles are organized by categories, allowing users to easily browse and read articles of their interest. 
 
 ## Features
 
@@ -66,4 +66,4 @@ This News App is licensed under the [MIT License](LICENSE). Feel free to use, mo
 
 ## Acknowledgements
 
-- This app utilizes the GNews public API for fetching news articles. Visit their website for more information: [GNews API](https://newsapi.org/)
+- This app utilizes the GNews public API for fetching news articles. Visit their website for more information: [news API](https://newsapi.org/)
