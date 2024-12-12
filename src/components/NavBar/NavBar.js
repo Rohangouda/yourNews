@@ -11,8 +11,8 @@ import "../NavBar/NavBar.css";
 function NavBar() {
   const navigate = useNavigate();
   const buttonStyle = {
-    width: '100%', // Default width for mobile
-    maxWidth: '183px', // Maximum width
+    width: '100%',
+    maxWidth: '163px', 
   };
   const navRef = useRef(null);
   const [searchQuery, setSearchQuery] = useState("");
